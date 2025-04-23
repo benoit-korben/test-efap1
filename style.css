@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(241, 241, 241);
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 24px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.links {
+  display: flex;
+  gap: 24px
+}
+
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  background-color: rgb(125, 83, 125);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maps, .video {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
